@@ -14,23 +14,22 @@ export default function Home() {
             whileInView={"show"}
             className="md:w-[600px]"
           >
-            <h1 className="font-semibold text-2xl sm:text-4xl mb-4">
-              CHARCOAL MANUFACTURER <br />
-              <span className="font-normal">FROM INDONESIA</span>
+            <h1 className="font-semibold uppercase text-2xl sm:text-4xl mb-2">
+              Welcome to CharcoalTrade
             </h1>
-            <p className="text-justify leading-relaxed">
-              Welcome to <span className="font-semibold">CharcoalTrade</span>,
-              the best place to explore and purchase various types of quality
-              charcoal. From wood charcoal to coconut shell charcoal, we offer
-              the finest selection for your needs. Discover the beauty and
-              utility of charcoal all in one convenient and reliable place.
-              Let's start exploring the world of charcoal with{" "}
-              <span className="font-semibold">CharcoalTrade</span> today!
+            <h3 className="sm:text-2xl uppercase mb-4">
+              The best destination for charcoal quality from{" "}
+              <span className="font-semibold">Indonesia.</span>
+            </h3>
+            <p className="text-justify text-sm sm:text-base leading-relaxed">
+              Find various types of high quality charcoal for your cooking and
+              industrial needs. Start exploring the world of charcoal with
+              <span className="font-semibold"> CharcoalTrade</span> today!
             </p>
-            <button className="bg-gray-950 px-4 py-3 rounded active:scale-95 transition-all ease-in-out text-white mt-5 flex items-center gap-2">
+            <a href="#about" className="bg-gray-950 w-[210px] px-4 py-3 rounded active:scale-95 transition-all ease-in-out text-white mt-5 flex items-center gap-2">
               <h1>More information</h1>
               <i className="bx bx-info-circle text-[24px]"></i>
-            </button>
+            </a>
           </motion.div>
           <motion.img
             variants={fadeIn("left", 0.5)}

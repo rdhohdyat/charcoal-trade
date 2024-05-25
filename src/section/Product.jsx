@@ -13,9 +13,9 @@ const products = [
       "High-quality wood charcoal, perfect for grilling and smoking meats. Made from natural hardwood, it burns evenly and imparts a delicious smoky flavor to your food.",
     specification: {
       grade: "Premium",
-      size: "Medium chunks",
+      shape: "Chunks",
       material: "Natural hardwood",
-      burningTime: "Approximately 2.5 hours",
+      burningTime: "2.5 hours",
     },
   },
 
@@ -27,9 +27,9 @@ const products = [
       "Premium coconut shell charcoal, ideal for outdoor cooking enthusiasts. Sustainably sourced from coconut shells, it produces minimal smoke and ash, ensuring a clean and efficient grilling experience.",
     specification: {
       grade: "Premium",
-      size: "Mixed sizes",
+      shape: "Chunks",
       material: "Coconut shell",
-      burningTime: "Approximately 2 hours",
+      burningTime: "2 hours",
     },
   },
 
@@ -41,9 +41,9 @@ const products = [
       "Sawdust briquettes, crafted from compressed sawdust, offer a convenient and eco-friendly option for barbecues. They ignite quickly and provide a steady heat output, making them perfect for long grilling sessions.",
     specification: {
       grade: "AB, ABC, CD, DE",
-      size: "Uniform shape",
+      shape: "Hexagonal",
       material: "Compressed sawdust",
-      burningTime: "Approximately 1.5 hours",
+      burningTime: "1.5 hours",
     },
   },
 
@@ -52,12 +52,12 @@ const products = [
     name: "BBQ Briquette",
     image: "BBQ.png",
     description:
-      "BBQ briquettes, designed specifically for barbecue enthusiasts, ensure consistent heat for extended cooking periods. Made from a blend of natural ingredients, they deliver an authentic BBQ flavor to your favorite dishes.",
+      "Designed specifically for barbecue enthusiasts, ensure consistent heat for extended cooking periods. Made from a blend of natural ingredients, they deliver an authentic BBQ flavor to your favorite dishes.",
     specification: {
       grade: "Premium",
-      size: "Hexagonal shape",
-      material: "Natural ingredients blend",
-      burningTime: "Approximately 3 hours",
+      shape: "Hexagonal shape",
+      material: "Coconut shell charcoal/wood charcoal",
+      burningTime: "2 hours",
     },
   },
 
@@ -66,25 +66,25 @@ const products = [
     name: "Coconut Charcoal Briquette",
     image: "coconut_briket.png",
     description:
-      "Premium coconut charcoal briquettes, designed specifically for barbecue enthusiasts, ensure consistent heat for extended cooking periods. Made from a blend of natural ingredients, they deliver an authentic BBQ flavor to your favorite dishes.",
+      "Coconut Charcoal Briquettes are charcoal briquettes made from coconut shells. One of the main functions of Coconut Charcoal Briquettes is to burn shisha or hookah.",
     specification: {
       grade: "Premium",
-      size: "Hexagonal shape",
-      material: "Natural ingredients blend",
-      burningTime: "Approximately 3 hours",
+      shape: "Cube shape",
+      material: "Coconut shell charcoal",
+      burningTime: "2 hours",
     },
   },
   {
     id: "product6",
     name: "Binchotan Coffe Wood",
-    image: "coconut_briket.png",
+    image: "binchotan.png",
     description:
-      "Premium coconut charcoal briquettes, designed specifically for barbecue enthusiasts, ensure consistent heat for extended cooking periods.",
+      "Binchotan Coffee Wood is high quality charcoal from coffee wood, often used for cooking, water purification, deodorizing and absorbing moisture because of its clean, long-lasting, and stable burning.",
     specification: {
       grade: "Premium",
-      size: "Hexagonal shape",
-      material: "Natural ingredients blend",
-      burningTime: "Approximately 3 hours",
+      shape: "Hexagonal shape",
+      material: "Coffe Wood",
+      burningTime: "2.5 hours",
     },
   },
   {
@@ -92,12 +92,12 @@ const products = [
     name: "Fingers Briquettes",
     image: "finger.png",
     description:
-      "Premium coconut charcoal briquettes, designed specifically for barbecue enthusiasts, ensure consistent heat for extended cooking periods. Made from a blend of natural ingredients, they deliver an authentic BBQ flavor to your favorite dishes.",
+      "Fingres briquettes are fuel made from compressed coconut charcoal. They are efficient, environmentally friendly, produce high heat, and are easy to use.",
     specification: {
       grade: "Premium",
-      size: "Hexagonal shape",
-      material: "Natural ingredients blend",
-      burningTime: "Approximately 3 hours",
+      shape: "Cylinder shape",
+      material: "Coconut shell charcoal",
+      burningTime: "1.5 hours",
     },
   },
   {
@@ -105,13 +105,13 @@ const products = [
     name: "Pillows Briquette",
     image: "pillow.png",
     description:
-      "Premium coconut charcoal briquettes, designed specifically for barbecue enthusiasts, ensure consistent heat for extended cooking periods. Made from a blend of natural ingredients, they deliver an authentic BBQ flavor to your favorite dishes.",
+      "Premium coconut charcoal briquettes, designed specifically for barbecue enthusiasts, ensure consistent heat for extended cooking ",
     specification: {
       grade: "Premium",
-      size: "Hexagonal shape",
-      material: "Natural ingredients blend",
-      burningTime: "Approximately 3 hours",
-    }
+      shape: "Pillow Shaped",
+      material: "Charcoal coconut shell",
+      burningTime: "2 hours",
+    },
   },
 ];
 

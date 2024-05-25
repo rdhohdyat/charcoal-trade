@@ -9,7 +9,7 @@ const AboutCard = ({ children, position }) => {
       variants={fadeIn(position, 0.2)}
       initial="hidden"
       whileInView={"show"}
-      className="p-3 shadow-md  rounded-lg text-start border h-[150px]"
+      className="p-3 shadow-md bg-white rounded-lg text-start border h-[150px]"
     >
       {children}
     </motion.div>
