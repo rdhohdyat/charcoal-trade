@@ -12,6 +12,7 @@ export const Home = () => {
             whileInView="show"
             viewport={{ once: true, amount: 0.2 }}
             className="md:w-[600px]"
+            alt="charcoal"
           >
             <h1 className="mb-2 text-2xl font-semibold uppercase sm:text-4xl">
               Welcome to Charcoal Trade

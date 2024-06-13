@@ -7,6 +7,7 @@ export const ProductCard = ({
   description,
   image,
   specification,
+  altText,
 }) => {
   return (
     <motion.div
@@ -22,7 +23,7 @@ export const ProductCard = ({
           className="w-[300px] h-[300px] object-cover mx-auto"
           width={300}
           height={300}
-          alt={name} // Alt text for accessibility
+          alt={altText}
         />
         <h2 className="mt-2 text-xl font-semibold sm:text-2xl">{name}</h2>
         <p className="text-light text-justify leading-relaxed text-sm sm:text-base h-[200px] sm:h-[150px] overflow-hidden">
@@ -51,7 +52,7 @@ export const ProductCard = ({
                 className="w-[300px] h-[300px] object-cover mt-2"
                 width={300}
                 height={300}
-                alt={name} // Alt text for accessibility
+                alt={name}
               />
               <p className="py-4 text-justify sm:w-[500px] text-sm sm:text-base">
                 {description}
@@ -87,6 +88,51 @@ export const ProductCard = ({
           </div>
         </div>
       </dialog>
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: name,
+          image: `./products/${image}`,
+          description: description,
+          sku: id,
+          mpn: id,
+          brand: {
+            "@type": "Brand",
+            name: "Your Brand Name",
+          },
+          offers: {
+            "@type": "Offer",
+            url: window.location.href,
+            priceCurrency: "USD",
+            price: "0.00", // Add the price here
+            itemCondition: "https://schema.org/NewCondition",
+            availability: "https://schema.org/InStock",
+          },
+          additionalProperty: [
+            {
+              "@type": "PropertyValue",
+              name: "Grade",
+              value: specification.grade,
+            },
+            {
+              "@type": "PropertyValue",
+              name: "Shape",
+              value: specification.shape,
+            },
+            {
+              "@type": "PropertyValue",
+              name: "Material",
+              value: specification.material,
+            },
+            {
+              "@type": "PropertyValue",
+              name: "Burning Time",
+              value: specification.burningTime,
+            },
+          ],
+        })}
+      </script>
     </motion.div>
   );
 };
